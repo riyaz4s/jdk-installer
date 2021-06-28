@@ -1,0 +1,5 @@
+node_modules
+jdk
+temp
+coverage
+package-lock.json

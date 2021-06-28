@@ -1,0 +1,21 @@
+{
+  "name": "jdk-scan",
+  "version": "1.0.0",
+  "description": "An Enterprise JDK installer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint --config ./.eslintrc",
+    "unit": "NODE_ENV=test jest -c ./jest.unit.config.js"
+  },
+  "author": "riyaz4s",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "jest": "^27.0.6",
+    "shelljs": "^0.8.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.28.0"
+  }
+}
