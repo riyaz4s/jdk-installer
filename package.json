@@ -17,5 +17,8 @@
   },
   "devDependencies": {
     "eslint": "^7.28.0"
-  }
+  },
+  "pre-commit": [
+    "unit"
+  ]
 }

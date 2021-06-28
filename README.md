@@ -10,7 +10,7 @@ Provides support for osx, linux and windows
 
 Steps to run
 ```
-git clone 
+git clone https://github.com/riyaz4s/jdk-installer.git
 npm install
 npm run start
 ```
